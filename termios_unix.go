@@ -1,5 +1,5 @@
-//go:build !windows
-// +build !windows
+//go:build !windows && !js && !wasip1
+// +build !windows,!js,!wasip1
 
 package term
 
